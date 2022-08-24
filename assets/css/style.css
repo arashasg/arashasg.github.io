@@ -630,7 +630,16 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  padding: 0px
 }
+.services .description ul {
+  padding: 0px;
+}
+
+.services .description li {
+  color: #149ddd;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
