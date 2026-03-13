@@ -23,7 +23,7 @@ repository       : "arashasg/arashasg.github.io" # UPDATE THIS
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png" # Upload your photo to the images folder and change this filename if needed
+  avatar           : "profile.jpg" # Upload your photo to the images folder and change this filename if needed
   name             : "Arash"
   pronouns         : "he/him"  
   bio              : "MSc Computer Science student researching machine learning, LLMs, and AI fairness. Research Assistant at the Vector Institute."
