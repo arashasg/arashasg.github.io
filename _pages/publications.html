@@ -9,28 +9,39 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% assign publicationsByYear = sorted_pubs | group_by_exp: "post", "post.date | date: '%Y'" %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% for year in publicationsByYear %}
+  <h2 style="margin-top: 2em; border-bottom: 1px solid #eee; padding-bottom: 10px;">{{ year.name }}</h2>
+
+  {% for post in year.items %}
+    <div style="margin-bottom: 1.5em;">
+      
+      <div style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.1em;">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </div>
+
+      <div style="font-size: 0.95em; margin-bottom: 0.1em;">
+        {{ post.authors | replace: 'Arash Asgari', '<u><b>Arash Asgari</b></u>' | replace: 'A Asgari', '<u><b>A Asgari</b></u>' }}
+      </div>
+
+      <div style="font-style: italic; color: #d95c14; font-size: 0.95em; font-weight: bold; margin-bottom: 0.2em;">
+        {{ post.venue }}
+      </div>
+
+      <div style="font-size: 0.9em;">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" style="text-decoration: none;">[<i class="fas fa-file-pdf" style="color: #007bb5;"></i> paper]</a>
+        {% endif %}
+        {% if post.videourl %}
+          <a href="{{ post.videourl }}" style="text-decoration: none;">[<i class="fas fa-video" style="color: #007bb5;"></i> video]</a>
+        {% endif %}
+        {% if post.codeurl %}
+          <a href="{{ post.codeurl }}" style="text-decoration: none;">[<i class="fas fa-code" style="color: #007bb5;"></i> code]</a>
+        {% endif %}
+      </div>
+
+    </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% endfor %}
