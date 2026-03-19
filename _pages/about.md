@@ -15,7 +15,11 @@ Feel free to email me at arash.asgari.m@gmail.com  or check my CV.
 
 ## News
 
-**2025**: The paper "MedPerturbing LLMs: A Comparative Study of Toxicity, Prompt Tuning, and Jailbreaks in Medical QA"was published in the Proceedings of the AAAI Symposium Series.
-**2025**: The paper "From Bias to Breakdown: Benchmarking Failure Mode Analysis of Single-cell RNA Sequencing Foundation Models in Acute Myeloid Leukemia" was published in the Proceedings of the AAAI Symposium Series.
-**2025**: The paper "Predicting the understandability of computational notebooks through code metrics analysis" was published in Empirical Software Engineerin.
-**2024**: The paper "DistilKaggle: a distilled dataset of Kaggle Jupyter notebooks"was published in the Proceedings of the 21st International Conference on Mining Software Repositories.
+<div style="height: 250px; overflow-y: auto;" markdown="1">
+
+* **2025**: The paper "MedPerturbing LLMs: A Comparative Study of Toxicity, Prompt Tuning, and Jailbreaks in Medical QA" was published in the Proceedings of the AAAI Symposium Series.
+* **2025**: The paper "From Bias to Breakdown: Benchmarking Failure Mode Analysis of Single-cell RNA Sequencing Foundation Models in Acute Myeloid Leukemia" was published in the Proceedings of the AAAI Symposium Series.
+* **2025**: The paper "Predicting the understandability of computational notebooks through code metrics analysis" was published in Empirical Software Engineering.
+* **2024**: The paper "DistilKaggle: a distilled dataset of Kaggle Jupyter notebooks" was published in the Proceedings of the 21st International Conference on Mining Software Repositories.
+
+</div>
