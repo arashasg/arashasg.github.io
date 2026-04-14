@@ -1,12 +1,12 @@
 ---
-title: "Quantifying Metric and Model Agreement in Bias Evaluation of Large Language Models"
+title: "Improving Classification of Cell Types in Acute Myeloid Leukemia with Self-guided Masking"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-01-01-quantifying-metric-model-agreement
-excerpt: 'This paper presents a comprehensive study quantifying the agreement across various bias evaluation metrics and Large Language Models (LLMs), aiming to provide a more robust understanding of fairness assessments in natural language processing.'
+permalink: /publication/2024-01-01-improving-classification-aml
+excerpt: 'This research presents a novel computational approach utilizing self-guided masking techniques to enhance the classification of cell types in Acute Myeloid Leukemia.'
 date: 2026-01-01
-venue: 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL)'
-paperurl: 'https://arashasg.github.io/files/quantifying-metric-model-agreement.pdf'
-citation: 'Asgari, A., Wu, H., Naziri, A., Kolahdouzi, M., &amp; Seyyed-Kalantari, L. (2026). &quot;Quantifying Metric and Model Agreement in Bias Evaluation of Large Language Models.&quot; <i>The 64th Annual Meeting of the Association for Computational Linguistics</i>.'
+venue: 'Preprint'
+paperurl: 'https://arashasg.github.io/files/improving-classification-aml.pdf'
+citation: 'Naziri, A., Asgari, A., Sachlos, E., An, A., &amp; Seyyed-Kalantari, L. (2024). &quot;Improving Classification of Cell Types in Acute Myeloid Leukemia with Self-guided Masking.&quot; <i>Preprint</i>.'
 ---
-This paper presents a comprehensive study quantifying the agreement across various bias evaluation metrics and Large Language Models (LLMs), aiming to provide a more robust understanding of fairness assessments in natural language processing. By systematically comparing how different models and metrics align (or diverge) when evaluating demographic biases, this work highlights critical considerations for ensuring reliable and consistent fairness benchmarks.
+This research presents a novel computational approach utilizing self-guided masking techniques to enhance the classification of cell types in Acute Myeloid Leukemia. The proposed methodology aims to improve diagnostic accuracy and representation learning in complex biomedical sequencing data.
