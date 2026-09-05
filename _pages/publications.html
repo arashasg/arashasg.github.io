@@ -34,6 +34,9 @@ author_profile: true
         {% if post.paperurl %}
           <a href="{{ post.paperurl }}" style="text-decoration: none;">[<i class="fas fa-file-pdf" style="color: #007bb5;"></i> paper]</a>
         {% endif %}
+        {% if post.preprinturl %}
+          <a href="{{ post.preprinturl }}" style="text-decoration: none;">[preprint]</a>
+        {% endif %}
         {% if post.videourl %}
           <a href="{{ post.videourl }}" style="text-decoration: none;">[<i class="fas fa-video" style="color: #007bb5;"></i> video]</a>
         {% endif %}

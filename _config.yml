@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale           : "en-US"
 site_theme       : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title            : "Arash / ML Researcher"
+title            : "Arash Asgari / ML Researcher & Engineer"
 title_separator  : "-"
-name             : &name "Arash"
-description      : &description "Academic portfolio and research blog"   # Update this with a general description of your site, this is the default if not overridden by a page
+name             : &name "Arash Asgari"
+description      : &description "Arash Asgari — machine learning researcher and engineer working on LLM/VLM evaluation, AI fairness, data pipelines, and efficient ML systems."
 url              : https://arashasg.github.io # UPDATE THIS: e.g. "https://[your GitHub username].github.io"
                                                    # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl          : "" # the subpath of your site, e.g. "/blog"
@@ -24,18 +24,18 @@ repository       : "arashasg/arashasg.github.io" # UPDATE THIS
 author:
   # Biographic information
   avatar           : "profile.jpg" # Upload your photo to the images folder and change this filename if needed
-  name             : "Arash"
+  name             : "Arash Asgari"
   pronouns         : "he/him"  
-  bio              : "MSc Computer Science student researching machine learning, LLMs, and AI fairness. Research Assistant at the Vector Institute."
+  bio              : "ML researcher and engineer working on LLMs, VLMs, AI fairness, and data pipelines. MSc in Computer Science, York University."
   location         : "Toronto, Canada"
-  employer         : "York University & Vector Institute"
+  employer         :
   uri              : # URL
   email            : arash.asgari.m@gmail.com
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # Update with your Google Scholar ID if you have one
+  googlescholar    : "https://scholar.google.com/citations?user=W0mt3IwAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # URL - Update with your ORCID if you have one
